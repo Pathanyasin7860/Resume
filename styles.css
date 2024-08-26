@@ -1,0 +1,126 @@
+/* Basic CSS for your portfolio */
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #333;
+    padding: 10px 0;
+}
+
+header nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Home Section */
+.home-section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #555;
+    color: white;
+}
+
+.home-section .content {
+    text-align: center;
+}
+
+.home-section h1 span {
+    color: #e74c3c;
+}
+
+.btn {
+    background: #e74c3c;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.btn:hover {
+    background: #c0392b;
+}
+
+/* About Section */
+.about-section {
+    padding: 50px;
+    background: white;
+    text-align: center;
+}
+
+.about-section h2 {
+    margin-bottom: 20px;
+}
+
+/* Projects Section */
+.projects-section {
+    padding: 50px;
+    background: #f0f0f0;
+}
+
+.project {
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.project a {
+    color: #e74c3c;
+    text-decoration: none;
+}
+
+.project a:hover {
+    text-decoration: underline;
+}
+
+/* Contact Section */
+.contact-section {
+    padding: 50px;
+    background: white;
+}
+
+.contact-section form {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact-section input, 
+.contact-section textarea {
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.contact-section button {
+    background: #e74c3c;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #333;
+    color: white;
+}
